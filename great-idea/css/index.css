@@ -64,3 +64,125 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* ------------------- */
+
+
+.container {
+	width: 876px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	margin-top: 40px;
+	justify-content: space-between;
+	
+}
+
+nav {
+	display:flex;
+	width:100%;
+	justify-content: space-between;
+	border: 1px solid lightcoral;
+}
+
+nav a {
+	font-size: 14pt;
+	color: grey;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: center;
+	border: 1px solid lightcoral;
+}
+
+header nav .logo {
+
+}
+
+
+
+
+
+.cta {
+	margin-top: 50px;
+	border-width: 2px;
+	border-color: black;
+	display: inline-block;
+}
+
+.cta1 {
+	display: relative;
+	width: 300px;
+	margin-top: 70px;
+	margin-left: 50px;
+	font-size: 50pt;
+	/* border: 1px solid lightcoral; */
+}
+
+.cta2 {
+	display: relative;
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 50px;
+	font-size: 26pt;
+	/* border: 1px solid lightcoral; */
+}
+
+.cta3 {
+	display: relative;
+	margin-top: -300px;
+	margin-left: 400px;
+}
+
+.mainContent1 {
+	display: inline-block;
+}
+
+.featuresBox {
+	margin-top: 20px;
+	width: 400px;
+}
+
+.aboutBox {
+	margin-top: -90px;
+	margin-left: 450px;
+	width: 420px;
+}
+
+.imageContainer {
+	margin-top: 30px;
+}
+
+.mainContent2 {
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.servicesBox {
+	margin-top: 30px;
+	width: 250px;
+}
+
+.productBox {
+	margin-top: -142px;
+	width: 250px;
+	margin-left: 310px;
+}
+
+.visionBox {
+	margin-top: -142px;
+	width: 250px;
+	margin-left: 620px;
+}
+
+address {
+	margin-top: 50px;
+}
+
+footer {
+	margin-top: 50px;
+	margin-left: 350px;
+	margin-bottom: 150px;
+}
