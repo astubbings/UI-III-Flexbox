@@ -96,11 +96,7 @@ nav a {
 	/* border: 1px solid lightcoral; */
 }
 
-
-
-
-
-
+/* CALL TO ACTION TOP SECTION */
 
 .cta {
 	display: flex;
@@ -128,7 +124,7 @@ nav a {
 
 .cta2 {
 	
-	font-size: 26pt;
+	font-size: 16pt;
 	/* border: 1px solid lightcoral; */
 }
 
@@ -140,8 +136,8 @@ nav a {
 	
 }
 
-.featuresBox{
-}
+/* .featuresBox {
+} */
 
 
 .imageContainer {
@@ -176,8 +172,8 @@ address {
 
 footer {
 	margin-top: 50px;
-	margin-left: 350px;
 	margin-bottom: 150px;
+	text-align: center;
 }
 
 /* SERVICES.HTML css box code STARTS HERE */
@@ -187,16 +183,70 @@ footer {
 	/* border: 1px solid lightcoral; */
 }
 
+/* --------- NAV CSS ARE ABOVE AND SHARE WITH INDEX.HTML */
+
+/* --------- TOP BANNER AND TOPBOX ARE BETWEEN NAV AND FIRST <hr> BREAK */
+
+
 .servicesTopBannerImg {
-	margin-top: 50px;
+	margin-top: 30px;
 	border: 1px solid lightseagreen;
 }
 
 .servicesTopBox {
-	margin-top: 50px;
-	border: 1px solid lightseagreen;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* border: 1px solid lightseagreen; */
 }
+
+.h1services {
+	font-size: 20pt;
+}
+
+
+/* ----------- FIRST <hr> BREAK */
+
+
+.servicesIndividualParent {
+	display: flex;
+	flex-wrap: wrap;
+	/* align-content: center; */
+	justify-content: space-between;
+
+}
+
+.servicesIndividual {
+	width: 420px;
+	padding:30px;
+	border: 1px solid black;
+	background-color: #e6e6e6;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
+
+
+
+
+/* ------------ FACTS SECTION  */
 
 .servicesFactsParent {
 	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* flex-basis: auto; */
 }
+
+.servicesFacts1 {
+	width:400px;
+	margin-right: 50px;
+	text-emphasis: wrap; 
+}
+
+.servicesFactsListBottom {
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+
+/* FOOTER styling ABOVE from index.html updated for css and flexbox */
